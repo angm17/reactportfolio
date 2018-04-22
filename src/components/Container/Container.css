@@ -1,0 +1,92 @@
+.Container{
+	display: grid;
+  	grid-template-columns: 1fr;
+}
+
+h1.title{
+	font-size: 25px;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0;
+}
+
+.item {
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+
+.form-item{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.form-item:focus{
+	outline: none !important;
+	border:1px solid #4CAF50;
+	box-shadow: 0;
+}
+
+.form-group{
+	margin:0;
+	display: block;
+	width: 100%;
+	padding:0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+.portHeader .button{
+	float: right;
+	cursor: pointer;
+	color: #fff;
+	border: 1px solid #4CAF50;
+	padding: 5px;
+	display: inline;
+	text-decoration: none;
+}
+.portHeader .button:hover{
+	background: #fff;
+	float: right;
+	cursor: pointer;
+	color:#000;
+	border-color: #000;
+}
+
+.portHeader h1, .portHeader h4{
+	display: inline;
+}
+
+.portHeader .buttons{
+	float: right;
+}
+
+.portHeader .buttons .button{
+	float:none;
+}
+
+.btn {
+	border: none;
+	color: #000;
+	background: transparent;
+	cursor: pointer;
+	padding: 10px;
+	text-decoration: none;
+}
+.btn-primary {
+	color: #fff;
+	background: #4CAF50;
+}
+
+.btn-primary:hover {
+	 background: #265828;
+}
+
+
+@media screen and (max-width: 600px){
+	h1.title{
+		font-size: 18px;
+	}
+}

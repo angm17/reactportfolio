@@ -1,0 +1,35 @@
+/*CSS GOES HERE*/
+footer.footer{
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100%;
+}
+
+
+footer.footer img.reactLogo{
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	animation: App-logo-spin infinite 20s linear;
+	padding:0;
+	margin:0;
+
+}
+
+footer.footer p{
+	font-size: 14px;
+	text-align: center;
+}
+
+@keyframes App-logo-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 400px){
+	footer.footer p{
+		font-size: 10px;
+		text-align: center;
+	}
+}

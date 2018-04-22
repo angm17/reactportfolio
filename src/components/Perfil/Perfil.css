@@ -1,0 +1,61 @@
+/*CSS GOES HERE*/
+
+.Perfil {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.profileImg{
+	width: 90px;
+	height: 100px;
+	border-radius: 50%;
+	background-size: cover;
+ 	display: block;
+ 	margin: 20px auto;
+ 	border: 2px solid #000;
+}
+
+.info{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.info h4{
+	margin: 0;
+	font-size: 18px;
+}
+
+.info h4 small{
+	font-size: 12px;
+}
+
+ul.contact{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+ul.contact li{
+	padding: 0 5px;
+	display: inline;
+}
+
+ul.contact li a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul.contact li:hover, ul.contact li:focus{
+	color: #4CAF50;
+}
+
+@media screen and (max-width: 450px){
+	ul.contact{
+		text-align: left;
+		padding: 0 20px;
+	}
+	ul.contact li{
+		padding: 5px 0px;
+		display: block;
+	}
+
+}

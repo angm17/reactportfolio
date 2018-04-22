@@ -1,0 +1,50 @@
+/*CSS GOES HERE*/
+
+
+.SkillBar{
+	padding: 0 20px;
+	border-bottom: 1px dashed #fff;
+}
+
+.SkillBar:last-child{
+    border-bottom: none;
+}
+
+.skillContainer {
+    width: 100%; 
+    background-color: #ddd;
+}
+
+.skill{
+    color: white;
+    font-size: 18px;
+}
+
+.skillExtra{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.skills {
+    text-align: right; 
+    padding-right: 20px; 
+    line-height: 40px; 
+    color: white;
+}
+
+
+@media screen and (max-width: 688px){
+    .skill{
+        font-size: 15px;
+    }
+    .skillExtra{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .skills {
+        padding-right: 10px; 
+        line-height: 30px; 
+    }
+}

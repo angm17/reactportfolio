@@ -1,0 +1,43 @@
+.btn {
+	border: none;
+	color: #000;
+	background: transparent;
+	cursor: pointer;
+	padding: 10px;
+	text-decoration: none;
+}
+.btn-primary {
+	color: #fff;
+	background: #4CAF50;
+}
+
+.btn-primary:hover {
+	 background: #265828;
+}
+.btn-block{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+.portheader{
+	padding: 5px 0;
+	margin: 0;
+}
+
+.portHeader .btn{
+	font-size: 20px;
+	float: right;
+	padding: 0 5px;
+	display: inline;
+}
+
+.portHeader h1{
+	display: inline;
+	color: #4CAF50;
+	
+}
+

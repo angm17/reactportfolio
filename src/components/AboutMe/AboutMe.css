@@ -1,0 +1,21 @@
+/*CSS GOES HERE*/
+
+.AboutMe{
+	color: #FFFFFF;
+}
+
+.AboutMe p{
+	font-size: 15px;
+	color: inherit;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	white-space: pre-wrap;
+}
+
+
+@media screen and (max-width: 688px){
+	.AboutMe p{
+		font-size: 13px;
+	}
+}
